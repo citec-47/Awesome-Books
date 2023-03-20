@@ -1,6 +1,6 @@
 const eror = document.getElementById('mistake');
 const myText = document.getElementById('text');
-
+//book collection
 class BookCollection {
   constructor() {
     this.BOOKS = 'AWSOME BOOKS';
@@ -31,7 +31,7 @@ class BookCollection {
         eror.textContent = 'Please enter both title and author';
     }
   }
-
+//remove book
   removeBook(title) {
     this.bookstore  = this.bookstore .filter((book) => book.title !== title);
     this.saveBooks();
