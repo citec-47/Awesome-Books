@@ -77,4 +77,3 @@ class BookCollection {
 
 const bookCollection = new BookCollection();
 bookCollection.init();
-//comment
