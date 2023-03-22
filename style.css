@@ -1,16 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 * {
-  list-style: none;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
   height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  font-family: sans-serif;
+  background: #1dc1f3;
+}
+
+.Ourlogo {
+  margin: 0 30px;
+  font-family: 'Aladin', cursive;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 22px;
+  user-select: none;
+}
+
+.our-nav-list {
+  margin: 0 35px;
+}
+
+.our-items {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 1px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 #text {
@@ -18,17 +50,17 @@ body {
 }
 
 hr {
-  color: #000;
   margin: 10px 0;
   display: none;
 }
 
-.main {
-  width: 500px;
+.container {
+  margin-top: 50px;
+  width: 40%;
   text-align: center;
 }
 
-#list-holder {
+#list-El {
   padding: 5px;
 }
 
@@ -42,23 +74,67 @@ hr {
   padding: 5px;
 }
 
-#input,
-#input1 {
-  margin-top: 5px;
-  padding: 0 3px;
-  border: 2px solid #000;
+#ourinputtext {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  border: 3px solid #fff;
+  background: #1dc1f3;
 }
 
-.eliminate-bttn,
+#inputone,
+#inputtwo {
+  margin-top: 2px;
+  width: 85%;
+  padding: 6px 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.remove-bttn,
 #butn {
   background: #fff;
-  border: 2px solid #000;
-  border-right: 4px solid #000;
-  border-bottom: 4px solid #000;
-  padding: 2px 5px;
-  margin-left: 7rem;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 6px 25px;
+  cursor: pointer;
 }
 
-h1 {
+h2 {
   margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  user-select: none;
+  font-family: 'Aladin', cursive;
+}
+
+footer nav {
+  position: absolute;
+  bottom: 0;
+}
+
+p {
+  margin: 0 30px;
+  font-weight: 900;
+}
+
+#ourcontact {
+  text-align: center;
+}
+
+.ourparagraph {
+  text-align: center;
+  font-weight: 700;
+}
+
+.ourInfor-list {
+  margin-top: 30px;
+}
+
+.ourInfor-list li {
+  margin: 15px;
+  text-align: left;
+  margin-left: 20%;
 }
