@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1dc1f3;
+  background: blue;
 }
 
 .Ourlogo {
@@ -79,7 +79,7 @@ hr {
   height: auto;
   padding: 8px;
   border: 3px solid #fff;
-  background: #1dc1f3;
+  background: blue;
 }
 
 #inputone,
