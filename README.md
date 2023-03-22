@@ -48,10 +48,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
-
-**Portfolio** is a webpage build to display my projects, about me, skill and how to get in touch with me.
+**This is the Awesome Books Project in order to show what we have learned so far at HTML, CSS and JS.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,9 +69,8 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **Recent and past projects**
-- **Skills**
-- **Contact info**
+- **adds a book name and author**
+- **Removes a book from the list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +103,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/citec-47/portfolio.git
+  git clone https://github.com/citec-47/Awesome-Books.git
 ```
 
 
@@ -147,6 +145,11 @@ Example:
 - Twitter: [@NdonyiMaurice](https://twitter.com/Ndonyi4)
 - LinkedIn: [NdonyiMaurice](https://www.linkedin.com/in/ndonyi-maurice-b5b49b22b/)
 
+ 👤 **Author2**
+
+- GitHub: [@jossi30](https://github.com/jossi30)
+- Twitter: [@jossi30](https://twitter.com/jossi30_)
+- LinkedIn: [Yosief G. Hailay](https://www.linkedin.com/in/yosief-g-hailay-290277213/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,10 +157,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
--  **Desktop view**
-- **Contact form**
-- **Mobile nav menu**
+For the future features we will add sign up page and also favorite button to the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
